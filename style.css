@@ -1,9 +1,9 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     max-width: 960px;
     margin: auto;
     background-color: #eeedb5;
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
     font-size: 3em;
