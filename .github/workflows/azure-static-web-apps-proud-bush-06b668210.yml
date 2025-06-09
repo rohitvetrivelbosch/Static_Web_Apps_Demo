@@ -27,7 +27,7 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.53e75a4863025a12309dd3432a7a04eba3c1e0b00b8ce9617973a6d06350687e06-b8f14376-02f8-430f-83e8-1c79bdf7a27b010263006b668210 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_BUSH_06B668210}}
           action: "upload"
           app_location: "/"            # This is the folder where index.html is
           output_location: ""          # No build step — point directly to app files
